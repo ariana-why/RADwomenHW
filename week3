@@ -35,16 +35,14 @@ public with sharing class WeekThreeHomework {
         //delete the slashes so that the loop is no longer commented out and compile the class.
 
         //Can you add a debug statement to print out the counter value every time it runs through the loop?
-
+		
 		Integer counter = 0;
-
 		while (counter < 5) {
             counter++;  //without this line to increment counter, we'd have an infinite loop!
-
-        System.debug('Done with the loop, it ran: ' + counter + ' times.');
+				System.debug('Done with the loop, it ran: ' + counter + ' times.');
         
 		/*ARY: here's a debug statement to print out the counter value every time it runs through the loop*/
-        System.debug('Counter value : ' + counter); 
+        	System.debug('Counter value : ' + counter); 
         }
 
     }
@@ -67,6 +65,7 @@ public with sharing class WeekThreeHomework {
 		Contact c1 = new Contact(FirstName='Sam');
 		Contact c2 = new Contact(FirstName='Diane');
 		Contact c3 = new Contact(FirstName='Coach');
+		
 		List < Contact > myContacts = new List < Contact >{c1,c2,c3};
 
 		// Your turn!  Using a for loop, print out the first name of each contact on a different line
