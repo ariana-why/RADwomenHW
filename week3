@@ -41,7 +41,7 @@ public with sharing class WeekThreeHomework {
             counter++;  //without this line to increment counter, we'd have an infinite loop!
 				System.debug('Done with the loop, it ran: ' + counter + ' times.');
         
-		/*ARY: here's a debug statement to print out the counter value every time it runs through the loop*/
+		/*ARY: here's a debug statement to print out the counter value every time it runs through the loop. Also, I'm sorry about the darn line spacing in the next section; it seems no matter how many times I fixed the indentation in this Gist this second section gets all wonky. I'd appreciate any tips if you have any!*/
         	System.debug('Counter value : ' + counter); 
         }
 
