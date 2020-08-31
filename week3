@@ -81,7 +81,7 @@ public with sharing class WeekThreeHomework {
 		//ARY: no they do not! They live in the limbo of our code.
     
 		//What would it take to get them there?
-		//ARY: we'd need to use DML to insert these contact records into our database.
+		//ARY: we'd need to use DML to insert these contact records into our database, and we'd need content in any other required fields.
 
 	}
 }
