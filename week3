@@ -73,8 +73,8 @@ public with sharing class WeekThreeHomework {
 		// Your turn!  Using a for loop, print out the first name of each contact on a different line
 		//hint, you will need to use dot notation!
 
-		for (Contact lots : myContacts) {
-            System.debug('The first name of the contact in this loop is ' + lots.FirstName);
+		for (Contact con : myContacts) {
+            System.debug('The first name of the contact in this loop is ' + con.FirstName);
         }
 
 		//Bonus question to ponder: Do these contacts actually exist in our database?
